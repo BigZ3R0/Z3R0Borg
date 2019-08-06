@@ -1,6 +1,6 @@
 """Make / Download Telegram Sticker Packs without installing Third Party applications
 Available Commands:
-.kangsticker [Optional Emoji]
+.kang [Optional Emoji]
 .packinfo
 .getsticker"""
 from telethon import events
@@ -46,8 +46,8 @@ async def _(event):
         return
     me = borg.me
     userid = event.from_id
-    packname = f"@Prakaska's Masterpiece"
-    packshortname = f"PrakasakaMasterpiece"  # format: Uni_Borg_userid
+    packname = f"@B1GZ3R0's Masterpieces"
+    packshortname = f"bigzeroMasterpieces"  # format: Uni_Borg_userid
 
     await event.edit("Grabbing Sketch Brush & Painting this Picture...")
 
